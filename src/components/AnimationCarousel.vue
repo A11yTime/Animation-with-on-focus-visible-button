@@ -3,7 +3,7 @@
       <div class="vertical-center container-btn" id="skip">
             <button class="btn" @click="togglePlayPause" :aria-label="isPlaying? 'pause' : 'play'">{{ isPlaying ? '⏸️' : '▶️' }}</button>
           </div>
-        <div class="carousel-container">
+        <div class="carousel-container" @click="togglePlayPause">
           
         <div class="carousel-image" v-for="(image, index) in images" 
         :key="index" 
