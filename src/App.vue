@@ -1,15 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Quaint & Healing beauty of Natue!</h1>
+ <AnimationCarousel />
+ <div>
+ </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import AnimationCarousel from './components/AnimationCarousel.vue';
 export default {
+  data() {
+    return {  
+    }
+  },
   name: 'App',
   components: {
-    HelloWorld
+    AnimationCarousel,
   }
 }
 </script>
@@ -21,6 +25,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
 }
-</style>
+</style>./components/AnimationCarousel.vue
