@@ -1,24 +1,5 @@
-# my-list
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Accessibility Consideration for moving content
+* Any moving content that starts automatically and lasts more than five minutes
+* It should have a mechanism to pause/play.
+### Terminology
+*
