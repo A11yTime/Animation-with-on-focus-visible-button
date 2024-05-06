@@ -6,6 +6,7 @@
         <div class="carousel-container" @click="togglePlayPause">
           
         <div class="carousel-image" v-for="(image, index) in images" 
+            <--- use role if any --->
         :key="index" 
         :style="{ backgroundImage: `url(${image.src})` }" 
         :class="{ 'active': index === currentIndex }">
